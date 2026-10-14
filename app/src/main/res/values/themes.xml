@@ -1,4 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="Theme.PrintXpress" parent="android:Theme.Material.Light.NoActionBar" />
+    <style name="Theme.PrintXpress" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/px_primary</item>
+        <item name="colorPrimaryDark">@color/px_primary_dark</item>
+        <item name="colorSecondary">@color/px_secondary</item>
+        <item name="colorAccent">@color/px_accent</item>
+        <item name="android:statusBarColor">@color/px_primary</item>
+        <item name="android:navigationBarColor">@color/px_surface</item>
+        <item name="android:windowBackground">@color/px_background</item>
+        <item name="materialCardViewStyle">@style/Widget.PrintXpress.Card</item>
+    </style>
+
+    <style name="Widget.PrintXpress.Card" parent="Widget.Material3.CardView.Elevated">
+        <item name="cardCornerRadius">16dp</item>
+        <item name="cardElevation">1dp</item>
+        <item name="cardBackgroundColor">@color/px_surface</item>
+    </style>
 </resources>

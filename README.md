@@ -2,7 +2,7 @@
 
 Native Android customer app for **PrintXpress**, a digital printing service for Sri Lanka (CSE5011 Mobile Application Development — WRIT1).
 
-Built with **Kotlin**, **Jetpack Compose**, **Navigation Compose**, and **Room (SQLite)**. Cross-platform frameworks (Flutter / React Native / Ionic) are not used, per the brief.
+Built with **Java**, **XML Views / Fragments**, **Navigation Component**, and **Room (SQLite)**. Cross-platform frameworks (Flutter / React Native / Ionic) are not used, per the brief.
 
 ## Requirements
 
@@ -14,7 +14,7 @@ Built with **Kotlin**, **Jetpack Compose**, **Navigation Compose**, and **Room (
 ## Open in Android Studio
 
 1. Clone this repository.
-2. Open Android Studio → **File → Open** → select this project root (the folder containing `settings.gradle.kts`).
+2. Open Android Studio → **File → Open** → select this project root (the folder containing `settings.gradle`).
 3. Let Gradle sync finish (Android Studio will create `local.properties` with your SDK path if needed).
 4. Run on an emulator or device with the green **Run** button (`app` configuration).
 
@@ -46,6 +46,9 @@ Demo control on order detail: **Demo: advance status** simulates shop workflow f
 ```
 app/src/main/java/com/printxpress/app/
   data/          Room entities, DAOs, repository, product seed data
-  ui/            Compose screens, navigation, theme, shared components
-  util/          Input validation helpers
+  ui/            Fragments, adapters, shared UI helpers
+  util/          Input validation and background executors
+app/src/main/res/
+  layout/        XML screens and list item layouts
+  navigation/    Navigation graph
 ```

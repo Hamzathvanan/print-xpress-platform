@@ -1,4 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="ic_launcher_background">#0B3D4A</color>
+    <color name="px_primary">#0B3D4A</color>
+    <color name="px_primary_dark">#072C35</color>
+    <color name="px_secondary">#1F7A8C</color>
+    <color name="px_accent">#BF8354</color>
+    <color name="px_background">#F4F7F8</color>
+    <color name="px_surface">#FFFFFF</color>
+    <color name="px_on_surface">#1A2428</color>
+    <color name="px_muted">#5F6E74</color>
+    <color name="px_error">#B3261E</color>
+    <color name="px_error_container">#F9DEDC</color>
 </resources>

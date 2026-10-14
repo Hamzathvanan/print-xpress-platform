@@ -1,4 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">PrintXpress</string>
+    <string name="back">Back</string>
+    <string name="sign_in">Sign in</string>
+    <string name="create_account">Create account</string>
+    <string name="sign_out">Sign out</string>
+    <string name="notifications">Notifications</string>
+    <string name="orders">Orders</string>
+    <string name="profile">Profile</string>
+    <string name="upload_artwork">Upload artwork</string>
+    <string name="change_artwork">Change artwork</string>
+    <string name="confirm_order">Confirm order</string>
+    <string name="demo_advance">Demo: advance status</string>
+    <string name="reschedule">Reschedule</string>
+    <string name="cancel_order">Cancel order</string>
+    <string name="save_profile">Save profile</string>
+    <string name="save_address">Save address</string>
+    <string name="save_design">Save design</string>
+    <string name="choose_date">Choose date</string>
+    <string name="customise_order">Customise &amp; order</string>
+    <string name="print_guidelines">Print guidelines</string>
+    <string name="faq_support">FAQ &amp; support</string>
+    <string name="tap_to_delete">Tap card to delete</string>
 </resources>
